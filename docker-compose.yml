@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  backend:
+    platform: linux/arm64
+    build:
+      context: ./Poketrainer-API/Poketrainer-API
+    container_name: poke-api
+    ports:
+      - "8080:8080"
+
+  frontend:
+    platform: linux/arm64
+    build:
+      context: ./poketrainer-client
+    container_name: poke-client
+    ports:
+      - "3000:3000"
+    environment:
+      BACKEND_URL: http://backend:8080
+    depends_on:
+      - backend
