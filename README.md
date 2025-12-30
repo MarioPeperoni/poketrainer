@@ -23,8 +23,8 @@ docker-compose up --build
 
 This will start:
 - **Frontend** at http://localhost:3000
-- **Backend API** at http://localhost:5017
-- **API Documentation** at http://localhost:5017/scalar/v1
+- **Backend API** at http://localhost:8080
+- **API Documentation** at http://localhost:8080/scalar/v1
 
 3. **Stop the application**
 ```bash
