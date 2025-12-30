@@ -41,14 +41,6 @@ poketrainer/
 └── README.md
 ```
 
-##  Development Setup
-
-### Frontend Development
-See [poketrainer-client/README.md](poketrainer-client/README.md)
-
-### Backend Development
-See [Poketrainer-API/README.md](Poketrainer-API/README.md)
-
 ## License
 
 This project is part of a coding assignment.
