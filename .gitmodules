@@ -1,0 +1,8 @@
+[submodule "poketrainer-client"]
+	path = poketrainer-client
+	url = https://github.com/MarioPeperoni/poketrainer-client
+	branch = main
+[submodule "Poketrainer-API"]
+	path = Poketrainer-API
+	url = https://github.com/MarioPeperoni/poketrainer-api
+	branch = main
